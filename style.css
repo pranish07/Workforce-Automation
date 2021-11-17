@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+body {
+  background-color: gainsboro;
+  font-family: "Ubuntu", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile_pic img {
+  height: 30px;
+}
+
+.site_title i {
+  border: 1px solid #eaeaea;
+  padding: 5px 6px;
+  border-radius: 50%;
+}
+
+.profile_pic {
+  width: 35%;
+  float: left;
+}
+
+.img-circle.profile_img {
+  width: 70%;
+  background: #fff;
+  margin-left: 15%;
+  z-index: 1000;
+  position: inherit;
+  margin-top: 20px;
+  border: 1px solid rgba(52, 73, 94, 0.44);
+  padding: 4px;
+}
+
+.profile_info {
+  padding: 25px 10px 10px;
+  width: 65%;
+  float: left;
+}
+
+.profile_info span {
+  font-size: 13px;
+  line-height: 30px;
+  color: #bab8b8;
+}
+
+.profile_info h2 {
+  font-size: 14px;
+  color: #ecf0f1;
+  margin: 0;
+  font-weight: 300;
+}
+/* .nav-md .container.body */
+
+.main_container .col-md-3.left_col {
+  min-height: 100%;
+  width: 230px;
+  padding: 0;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+}
+.left_col {
+  background: #2a3f54;
+  color: white;
+}
+a {
+  color: #5a738e;
+  text-decoration: none;
+}
+.top_nav .navbar-right {
+  margin: 13px;
+  width: auto;
+  float: right;
+}
+
+.top_nav .navbar-right li {
+  display: inline-block;
+  float: right;
+  position: static;
+}
+.clearfix:after, form:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.login_content {
+  margin: 0 auto;
+  padding: 25px 20px;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff;
+  width: 300px;
+display: flex;
+place-items: center;
+
+}
+.login_content input {
+  margin:10px;
+}
+/* .menu_section a {
+ color:white;
+} */
