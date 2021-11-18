@@ -6,6 +6,7 @@ body {
 }
 a {
   text-decoration: none;
+ color:white;
 }
 .profile {
   display: flex;
@@ -42,7 +43,9 @@ a {
   width: 65%;
   float: left;
 }
-
+.nav_title a{
+  color:white;
+}
 .profile_info span {
   font-size: 13px;
   line-height: 30px;
@@ -71,10 +74,7 @@ a {
   background: #2a3f54;
   color: white;
 }
-a {
-  color: #5a738e;
-  text-decoration: none;
-}
+
 .top_nav .navbar-right {
   margin: 13px;
   width: auto;
@@ -107,6 +107,23 @@ place-items: center;
 .login_content input {
   margin:10px;
 }
-/* .menu_section a {
- color:white;
-} */
+.side-menu{
+  width: 100%;
+  height: 100%;
+  background: #2a3f54;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+}
+.side-menu a{
+  color: white;
+  text-decoration: none;
+}
+.side-menu li{
+  margin-bottom: 10px;;
+}
+.menu section{
+  margin-top: 20px;
+
+}
