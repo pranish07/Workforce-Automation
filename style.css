@@ -398,6 +398,13 @@ transition: all 0.3s ease;
 
 }
 
+.submit{
+  border: 1px solid black;
+  border-radius: 4px;
+  margin:1rem;
+}
+
+
 
 /* Responsive media query */
 @media (max-width: 1078px){
